@@ -35,10 +35,10 @@ describe('Nav component', () => {
 describe('emoji is visible', () => {
   it('inserts emoji into the h2', () => {
   const { getByLabelText } =   render(<Nav
-                                  categories={categories}
-                                  setCurrentCategory={mockSetCurrentCategory}
-                                  currentCategory={mockCurrentCategory}
-                                />);
+    categories={categories}
+    setCurrentCategory={mockSetCurrentCategory}
+    currentCategory={mockCurrentCategory}
+  />);
 
   expect(getByLabelText('camera')).toHaveTextContent('📸');
   });
