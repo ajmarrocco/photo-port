@@ -1,8 +1,8 @@
 {
+  "homepage": "http://ajmarrocco.github.io/photo-port",
   "name": "photo-port",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ajmarrocco.github.io/photo-port",
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.0.0",
