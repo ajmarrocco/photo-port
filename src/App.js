@@ -32,6 +32,7 @@ function App() {
       <main>
       {!contactSelected ? (
         <>
+        {/* currentCategory is the prop name */}
           <Gallery currentCategory={currentCategory}></Gallery>
           <About></About>
         </>
